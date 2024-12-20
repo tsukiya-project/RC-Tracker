@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+```markdown
+# RC Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+RC Tracker is a simple and customizable app for RC (Radio-Controlled) hobby enthusiasts to organize their equipment and setups. It allows users to create folders for parts, tools, tires, and setups, and even supports nested folders for detailed organization.
 
-## Available Scripts
+## Features
+- **Folder System**: Organize your RC inventory into customizable folders.
+- **Nested Folders**: Create subfolders endlessly for deeper categorization.
+- **Persistence**: Folders are saved locally, so they are available even after closing the app.
+- **User-Friendly Interface**: Simple and intuitive interface with folder creation popups.
 
-In the project directory, you can run:
+## Future Features (Planned)
+- Add tables inside folders to track item details (e.g., runtime, condition).
+- Introduce login/signup for syncing data across devices.
+- AI-powered setup assistant to suggest changes based on track performance.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Clone the Repository
+```bash
+git clone https://github.com/tsukiya-project/RC-Tracker.git
+cd RC-Tracker
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Install Dependencies
+```bash
+npm install
+```
 
-### `npm test`
+### Run the Development Server
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The app will be available at `http://localhost:3000` in your browser.
 
-### `npm run build`
+## How to Use
+1. **Create Folders**: Click "Create Folder" to start organizing your RC equipment.
+2. **Navigate**: Click on a folder to open it, and use the "Back" button to navigate up one level.
+3. **Nested Folders**: Create subfolders for further organization.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+- **React.js**: Front-end framework for building the app.
+- **Local Storage**: To save folder data locally on the user's browser.
+- **Git**: For version control.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+We welcome contributions! Feel free to fork this repository and submit pull requests for new features, bug fixes, or improvements.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
+This project is open source and available under the [MIT License](LICENSE).
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Author
+Developed by [Tsukiya Project](https://github.com/tsukiya-project).
+```
