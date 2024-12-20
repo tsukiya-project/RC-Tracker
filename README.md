@@ -1,7 +1,8 @@
 ```markdown
 # RC Tracker
 
-RC Tracker is a simple and customizable app for RC (Radio-Controlled) hobby enthusiasts to organize their equipment and setups. It allows users to create folders for parts, tools, tires, and setups, and even supports nested folders for detailed organization.
+RC Tracker is a simple and customizable app for RC (Radio-Controlled) hobby enthusiasts to organize their equipment and setups. 
+It allows users to create folders for parts, tools, tires, and setups, and even supports nested folders for detailed organization.
 
 ## Features
 - **Folder System**: Organize your RC inventory into customizable folders.
@@ -53,5 +54,4 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 ### Author
-Developed by [Tsukiya Project](https://github.com/tsukiya-project).
-```
+Developed by [tsukiya](https://github.com/tsukiya-project).
